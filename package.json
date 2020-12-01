@@ -1,0 +1,30 @@
+{
+  "name": "tradeviewhooks",
+  "version": "1.0.0",
+  "description": "To get notification web hooks from trade view",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretty": "prettier --write --tab-width 2 \"**/*.js\""
+  },
+  "keywords": [
+    "tradeview",
+    "hook",
+    "web",
+    "crypto"
+  ],
+  "author": "Parker Bidigare (work.simpleintelligence@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.50.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^7.14.0",
+    "gulp": "^4.0.2",
+    "mocha": "^8.2.1",
+    "prettier": "^2.2.1"
+  }
+}
